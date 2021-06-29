@@ -3,6 +3,11 @@
   "include": ["src/**/*"],
   "exclude": ["node_modules/*","dist/*"],
   "compilerOptions": {
-    "types": ["node", "svelte"]
+    "types": ["node", "svelte"],
+    "plugins": [
+      {
+        "name": "typescript-svelte-plugin"
+      }
+    ]
   }
 }
